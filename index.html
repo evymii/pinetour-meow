@@ -18,6 +18,7 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script src="animations.js"></script>
   </head>
   <body>
@@ -25,13 +26,13 @@
       <div class="container">
         <div class="hero-section">
           <div class="menu-container">
-            <div class="navigation">
+            <div class="nav-left">
               <img
                 src="imgsstar/logo1.png"
                 class="logo-style animate-fadeInLeft delay-1"
               />
             </div>
-            <div class="menu-items">
+            <div class="nav-center">
               <ul class="menu-list">
                 <li class="menu-items-style animate-fadeInUp delay-2">Home</li>
                 <li class="menu-items-style animate-fadeInUp delay-3">About</li>
@@ -39,19 +40,20 @@
                   Contact
                 </li>
               </ul>
-              <img
-                src="imgsstar/user.png"
-                class="user-icon animate-fadeInUp delay-5"
-              />
             </div>
-            <div class="language-button">
-              <p class="language animate-fadeInRight delay-6">en</p>
+            <div class="nav-right">
+              <div class="user-icon-container animate-fadeInUp delay-5">
+                <i data-lucide="user" class="user-icon"></i>
+              </div>
+              <div class="language-button">
+                <p class="language animate-fadeInRight delay-6">en</p>
+              </div>
             </div>
           </div>
           <div class="hero-text-container">
-            <h2 class="T1 animate-fadeInUp delay-7">PURE MAGIC</h2>
-            <h1 class="T2 animate-bounceIn delay-8">AWAITS!</h1>
-            <h3 class="T3 animate-fadeInUp delay-1">2025</h3>
+            <h2 class="T1">PURE MAGIC</h2>
+            <h1 class="T2">AWAITS!</h1>
+            <h3 class="T3">2025</h3>
           </div>
         </div>
       </div>
@@ -339,34 +341,30 @@
           </div>
 
           <div class="footersection">
-            <div>
+            <div class="footer-logo">
+              <img
+                src="imgsstar/logo1.png"
+                alt="PineTour Logo"
+                class="footer-logo-img"
+              />
+            </div>
+            <div class="footer-social">
               <a
                 href="https://www.facebook.com/pinecone.academy.mongolia/"
                 target="_blank"
+                class="social-link facebook-link"
               >
-                <button class="icon11">
-                  <div class="iconmid">
-                    <img src="imgsstar/FacebookIconpng.png" class="icon" />
-                    <span class="text">Facebook</span>
-                  </div>
-                </button>
+                <i data-lucide="facebook" class="social-icon"></i>
+                <span>Facebook</span>
               </a>
-            </div>
-            <div>
               <a
                 href="https://www.instagram.com/pineconemongolia/?hl=en"
                 target="_blank"
+                class="social-link instagram-link"
               >
-                <button class="icon11">
-                  <div class="iconmid">
-                    <img src="imgsstar/InstagramIcon.png" class="icon" />
-                    <span class="text">Instagram</span>
-                  </div>
-                </button>
+                <i data-lucide="instagram" class="social-icon"></i>
+                <span>Instagram</span>
               </a>
-            </div>
-            <div class="spaceforfooter">
-              <img src="imgsstar/logo1.png" class="logo-style" />
             </div>
           </div>
         </div>

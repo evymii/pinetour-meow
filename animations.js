@@ -6,7 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
   initParallaxEffects();
   initSmoothScrolling();
   initLoadingAnimations();
+  initLucideIcons();
 });
+
+// Initialize Lucide icons
+function initLucideIcons() {
+  if (typeof lucide !== "undefined") {
+    lucide.createIcons();
+  }
+}
 
 // Scroll-triggered animations
 function initScrollAnimations() {
