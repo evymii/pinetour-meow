@@ -511,16 +511,16 @@ img.loaded {
   margin: 0;
 }
 .bg-image-1 {
-  background-image: url(imgsstar/HeroImage.png);
+  background-image: url(../../imgsstar/HeroImage.png);
 }
 .bg-image-2 {
-  background-image: url(imgsstar/Locationimage.png);
+  background-image: url(../../imgsstar/Locationimage.png);
 }
 .bg-image-3 {
-  background-image: url(imgsstar/Roadmapimage.png);
+  background-image: url(../../imgsstar/Roadmapimage.png);
 }
 .bg-image-4 {
-  background-image: url(imgsstar/Price&Footerimage.png);
+  background-image: url(../../imgsstar/Price&Footerimage.png);
 }
 .container {
   max-width: 1200px;
@@ -816,7 +816,7 @@ img.loaded {
   background-repeat: no-repeat;
   border-radius: 40px;
   color: #fdfdfea9;
-  background-image: url(imgsstar/Hovercardimage1png.png);
+  background-image: url(../../imgsstar/Hovercardimage1png.png);
   background-size: contain;
   gap: 40px;
   box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
@@ -843,7 +843,7 @@ img.loaded {
   background-repeat: no-repeat;
   border-radius: 40px;
   color: #fdfdfea9;
-  background-image: url(imgsstar/Hovercardimage2.png);
+  background-image: url(../../imgsstar/Hovercardimage2.png);
   background-size: contain;
   gap: 40px;
   box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
@@ -869,7 +869,7 @@ img.loaded {
   background-repeat: no-repeat;
   border-radius: 40px;
   color: #fdfdfeb9;
-  background-image: url(imgsstar/Hovercardimage3.png);
+  background-image: url(../../imgsstar/Hovercardimage3.png);
   background-size: contain;
   gap: 40px;
   box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
@@ -895,7 +895,7 @@ img.loaded {
   background-repeat: no-repeat;
   border-radius: 40px;
   color: #fdfdfeb9;
-  background-image: url(imgsstar/Hovercardimage4.png);
+  background-image: url(../../imgsstar/Hovercardimage4.png);
   background-size: contain;
   gap: 40px;
   box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46),
